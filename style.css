@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.container{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header header"
+  "blankOne blankOne pageNamesOne blankTwo blankTwo"
+  "blankThree pageNamesTwo text pageNamesThree blankFour"
+  "blankFive blankFive pageNamesFour blankSix blankSix"
+  "footer footer footer footer footer";
+  grid-gap: 5px
+}
+
+header{
+  grid-area: header;
+  background-color: #8C5537;
+  border-style: groove;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+ background-image: url("images/glass.jpg");
+ background-color: #cccccc;
+}
+
+.blankOne{
+  grid-area: blankOne;
+}
+
+.blankTwo{
+  grid-area: blankTwo;
+}
+
+.blankThree{
+  grid-area: blankThree;
+}
+
+.blankFour{
+  grid-area: blankFour;
+}
+
+.blankFive{
+  grid-area: blankFive;
+}
+
+.blankSix{
+  grid-area: blankSix;
+}
+
+.blankSeven{
+  grid-area: blankSeven;
+}
+
+
+.pageNamesOne{
+  grid-area: pageNamesOne; 
+  background-color: #D8A280;
+  border-style: groove;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 20px;
+  opacity: 0.8;
+
+}
+
+.pageNamesTwo{
+  grid-area: pageNamesTwo; 
+  background-color: #D8A280;
+  border-style: groove;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 20px;
+  opacity: 0.8;
+
+}
+
+.pageNamesThree{
+  grid-area: pageNamesThree; 
+  background-color: #D8A280;
+  border-style: groove;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 20px;
+  opacity: 0.8;
+
+}
+
+.pageNamesFour{
+  grid-area: pageNamesFour; 
+  background-color: #D8A280;
+  border-style: groove;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 20px;
+  opacity: 0.8;
+
+}
+
+.text{
+  grid-area: text;
+  color: #FFFF00;
+  font-weight: bold;
+}
+
+.buttonOne{
+  background-color: #C58F6D;
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px;
+  transition-duration: .4s;
+  display: block;
+  border-style: groove;
+  border-color: #B27B5C;
+}
+
+.button:hover {
+  background-color: #9E694A; /* Green */
+  color: white;
+}
+
+footer{
+  grid-area: footer;
+  background-color: #B27B5C;
+  border-style: groove;
+  border-color: #cccccc;
+  text-align: center;
+}
+
+ img {
+  max-width: 100%;
+}
